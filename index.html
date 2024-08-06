@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wedding-planner</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Jost:ital,wght@0,100..900;1,100..900&family=Mate+SC&family=Noticia+Text:ital,wght@0,400;0,700;1,400;1,700&family=Patua+One&family=Playball&family=Playwrite+IS:wght@100..400&family=Playwrite+PL:wght@100..400&family=Shadows+Into+Light&family=Sofia&family=Taviraj:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body style="background-color:#fffaf8;">
+    <div class="main-container">
+        <header>
+            <nav class="navbar navbar-expand-lg" data-bs-theme="light">
+                <div class="container-fluid">
+                  <a class="navbar-brand px-5" href="#"><img style="height: 80px;" src="./image/images-removebg-preview(6).png" alt=""></a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav  mb-2 mb-lg-0 fs-5 ">
+                     <li class="nav-item dropdown nav-underline ">
+                        <a class="nav-link link-dark pe-4" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                         Home
+                        </a>
+                        <ul  class="dropdown-menu bg-danger">
+                          <li><a class="dropdown-item " href="#">Catering Modern</a></li>
+                          <li><a class="dropdown-item" href="#">Catering Classic</a></li>
+                          <li><a class="dropdown-item" href="#">Personal chef portfolio</a></li>
+                          <li><a  class="dropdown-item text-light" href="#">Wedding Planner</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#">Private VIP Parties</a></li>
+                          <li><a class="dropdown-item" href="#">Children BIrthday Parties</a></li>
+                          <li><a class="dropdown-item" href="#">Baby Shower &Gender Reveal</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item dropdown nav-underline">
+                        <a class="nav-link link-dark pe-4 " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Pages
+                        </a>
+                        <ul class="dropdown-menu bg-danger">
+                          <li><a class="dropdown-item" href="#">About Us</a></li>
+                          <li><a class="dropdown-item" href="#">Our Services</a></li>
+                          <li><a class="dropdown-item" href="#">Our Teams</a></li>
+                          <li><a  class="dropdown-item" href="#">Pricing</a></li>
+                          <li><a class="dropdown-item" href="#">Contact Us</a></li>
+                          <li><a class="dropdown-item" href="#">Tools</a></li>
+                         </ul>
+                      </li>
+                      <li class="nav-item dropdown nav-underline">
+                        <a class="nav-link link-dark pe-4" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                       Events
+                        </a>
+                        <ul class="dropdown-menu bg-danger">
+                          <li><a class="dropdown-item" href="#">Event List</a></li>
+                          <li><a class="dropdown-item" href="#">Event Calender</a></li>
+                          <li><a class="dropdown-item" href="#">Single Event</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item dropdown nav-underline">
+                        <a class="nav-link link-dark pe-4" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Portfolio
+                        </a>
+                        <ul class="dropdown-menu bg-danger">
+                          <li><a class="dropdown-item" href="#">Portfolio-Accordion</a></li>
+                          <li><a class="dropdown-item" href="#">Portfolio-Grid</a></li>
+                          <li><a class="dropdown-item" href="#">Single Project</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item dropdown nav-underline">
+                        <a class="nav-link link-dark pe-4" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Blog
+                        </a>
+                        <ul class="dropdown-menu bg-danger">
+                          <li><a class="dropdown-item" href="#">Standard</a></li>
+                          <li><a class="dropdown-item" href="#">List</a></li>
+                          <li><a class="dropdown-item" href="#">Single Post</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item dropdown nav-underline">
+                        <a class="nav-link link-dark pe-4" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Shop
+                        </a>
+                        <ul class="dropdown-menu bg-danger">
+                          <li><a class="dropdown-item" href="#">Product List</a></li>
+                          <li><a class="dropdown-item" href="#">Cart</a></li>
+                          <li><a class="dropdown-item" href="#">Checkout</a></li>
+                          <li><a class="dropdown-item" href="#">Wishlist Page</a></li>
+                        </ul>
+                      </li>
+                      
+                    </ul>
+                   
+                    <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                        <i class="fa-solid fa-magnifying-glass"></i> 
+                      </button>
+                      
+                        <!-- Modal -->
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div  class="modal-dialog modal-xl" >
+     <div class="modal-content ">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="staticBackdropLabel"></h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body text-light fs-3">
+            <div class="input-group">
+               
+                <textarea class="form-control "placeholder="Type words and hit enter" aria-label="With textarea"></textarea>
+                <span class="input-group-text"> <i class="fa-solid fa-magnifying-glass"></i></span>
+              </div>
+            </div>
+        </div>
+    </div>
+  </div>
+       <form class="container-fluid ">
+                        <a class="btn ms-5 fs-4" type="button">1 800 55 668 97</a>
+                        <button class="btn btn-sm btn-dark " type="button">Let's Talk</button>
+                      </form>
+                 </div>
+                </div>
+              </nav>
+        </header>
+      </div>
+
+            <section id="hero">
+                <div id="hero-overlay"></div>
+                <div id="hero-content">
+                    <h1>Forever Begins Here</h1>
+                    <p>Crafting unforgettable moments for your special day</p>
+                    <a href="#contact" id="btn">Plan Your Wedding</a>
+                </div>
+            </section>
+            <div class="marquee">
+              <p>We make your dream wedding come true! | Unforgettable memories | Personalized wedding planning | Creative and unique celebrations | Contact us today!</p>
+              <p>We make your dream wedding come true! | Unforgettable memories | Personalized wedding planning | Creative and unique celebrations | Contact us today!</p>
+              <p>We make your dream wedding come true! | Unforgettable memories | Personalized wedding planning | Creative and unique celebrations | Contact us today!</p>
+            </div>
+<section class="service">
+  <div id="section-head">
+    <h3>Our Services</h3>
+  </div>
+  <div class="mains-container">
+    <div id="container">
+      <div class="box">
+        <div class="icon">01</div>
+        <div class="content">
+<img style="width: 50px;border-radius: 50%;" src="./image/bride.png" alt="">
+<h4>wedding Concept</h4>
+<p>Adipisci, natus culpa laborum facere eius dolorum porro repudiandae harum voluptates ipsa quas atque beatae, vitae saepe </p>
+<a href="">Read More</a>
+        </div>
+      </div>
+      <div class="box">
+        <div class="icon">02</div>
+        <div class="content">
+<img style="width: 50px;border-radius: 50%;" src="./image/cake1.png" alt="">
+<h4>wedding Cake</h4>
+<p>Adipisci, natus culpa laborum facere eius dolorum porro repudiandae harum voluptates ipsa quas atque beatae, vitae saepe </p>
+<a href="">Read More</a>
+        </div>
+      </div>
+      <div class="box">
+        <div class="icon">03</div>
+        <div class="content">
+<img style="width: 50px;border-radius: 50%;" src="./image/catering.png" alt="">
+<h4>Catering</h4>
+<p>Adipisci, natus culpa laborum facere eius dolorum porro repudiandae harum voluptates ipsa quas atque beatae, vitae saepe </p>
+<a href="">Read More</a>
+        </div>
+      </div>
+    </div>
+      <div id="container">
+      <div class="box">
+        <div class="icon">04</div>
+        <div class="content">
+<img style="width: 50px;border-radius: 50%;" src="./image/decor.png" alt="">
+<h4>Venue Decor</h4>
+<p>Adipisci, natus culpa laborum facere eius dolorum porro repudiandae harum voluptates ipsa quas atque beatae, vitae saepe </p>
+<a href="">Read More</a>
+        </div>
+      </div>
+     <div class="box">
+        <div class="icon">05</div>
+        <div class="content">
+<img style="width: 50px;border-radius: 50%;" src="./image/enter.png" alt="">
+<h4>Entertainment</h4>
+<p>Adipisci, natus culpa laborum facere eius dolorum porro repudiandae harum voluptates ipsa quas atque beatae, vitae saepe  </p>
+<a href="">Read More</a>
+        </div>
+      </div>
+      <div class="box">
+        <div class="icon">06</div>
+        <div class="content">
+<img style="width: 50px;border-radius: 50%;" src="./image/venue.png" alt="">
+<h4>Venue Selection</h4>
+<p>Adipisci, natus culpa laborum facere eius dolorum porro repudiandae harum voluptates ipsa quas atque beatae, vitae saepe </p>
+<a href="">Read More</a>
+        </div>
+      </div>
+    </div>
+  </div>
+   </section>
+   <section class="about" id="about">
+<div class="container">
+  <div class="about-content">
+      <h1>About Us</h1>
+      <p class="intro">Crafting Unforgettable Memories</p>
+      <p class="story">Welcome to BLUSH where dreams come to life and unforgettable memories are created. With a passion for perfection and a dedication to detail, we have been turning visions into reality for over 14 years.</p>
+      <p class="story">Founded by xyz started as a small boutique planning service and has blossomed into a premier wedding planning company renowned for its personalized approach and creative flair. Our journey began with a simple belief: that every love story is unique and deserves to be celebrated in a way that reflects the couple's individual style and personality.</p>
+      <a href="" class="btn">Contact Us</a>
+  </div>
+  <div class="about-image">
+      <img src="./image/bg-image-2.jpg" alt="Wedding Image">
+  </div>
+</div>
+
+</section>
+<section id="Memories">
+  <div class="about-content text-center mt-5">
+    <h1>Gallery</h1>
+    <p >Welcome to our Wedding Gallery, where every image captures the magic and joy of each unique celebration. Explore these beautiful moments and find inspiration for your own special day.</p>
+   </div>
+<div class="memories-content">
+  <div id="carouselExampleFade" class="carousel slide carousel-fade">
+    <div class="carousel-inner p-5 d-flex flex-wrap">
+      <div class="carousel-item active d-flex ">
+        <img style="height: 450px;"  src="https://i.pinimg.com/474x/28/9c/d5/289cd51fce6ef6125ae64db52b18d85b.jpg " class="d-block w-100" alt="...">
+        <img style="height: 450px;"  src="https://i.pinimg.com/474x/f2/a0/91/f2a091572fd40b33d1db895226ebe1ee.jpg" class="d-block w-100" alt="...">
+        <img style="height: 450px;" src="https://i.pinimg.com/474x/2b/19/70/2b19708fbb788d6fb01f0e16198196c4.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item d-flex  ">
+        <img style="height: 450px;" src="https://i.pinimg.com/474x/0a/a4/56/0aa4569301481e2fcd3fcff0cf539fcc.jpg" class="d-block w-100" alt="...">
+        <img style="height: 450px;" src="https://i.pinimg.com/474x/69/15/e7/6915e738d5c32e045e3b8d4698dafbfe.jpg" class="d-block w-100" alt="...">
+        <img style="height: 450px;" src="https://i.pinimg.com/474x/77/aa/ae/77aaaedb0e02574e21a98b151f05c21b.jpg" class="d-block w-100" alt="...">
+
+      </div>
+      <div class="carousel-item d-flex ">
+     <img style="height: 450px;" src="https://i.pinimg.com/474x/6a/ba/ef/6abaef4628fb0f02d8e13f38a0cf3a36.jpg" class="d-block w-100" alt="...">
+        <img style="height: 450px;" src="https://i.pinimg.com/474x/3d/3f/4d/3d3f4d4d095327b2c13caed9241f2fbd.jpg" class="d-block w-100" alt="...">
+        <img style="height: 450px;" src="https://i.pinimg.com/474x/f2/a0/91/f2a091572fd40b33d1db895226ebe1ee.jpg" class="d-block w-100" alt="...">
+
+      </div>
+      </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+      <span class="carousel-control-prev" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden ">Next</span>
+    </button>
+  </div>
+</div>
+</section>
+
+    <section class="packages">
+        <div class="about-content text-center">
+            <p>PRICE</p>
+            <h1>Our Wedding Packages</h1>
+           
+        </div>
+        <div class="cards-container">
+            <div class="cards">
+                <div class="cards-front basic">
+                    <h3>Basic </h3>
+                    <h1 style="color: #fff;">$300.00</h1>
+                    <p style="color: gray;">per/day</p>
+                    <a href="">Order</a>
+                </div>
+                <div class="cards-back">
+                    <h3>Basic Package</h3>
+                    <p>Includes venue, basic decor, and catering for up to 100 guests.</p>
+                </div>
+            </div>
+            <div class="cards">
+                <div class="cards-front luxury">
+                    <h3>Luxury </h3>
+                    <h1 style="color: #fff;">$500.00</h1>
+                    <p style="color: gray;">per/day</p>
+                    <a style="color: #fff;" href="">Order</a>
+                </div>
+                <div class="cards-back">
+                    <h3>Luxury Package</h3>
+                    <p>Includes premium venue, luxury decor, catering, and photography for up to 200 guests.</p>
+                </div>
+            </div>
+            <div class="cards">
+                <div class="cards-front fantasy">
+                    <h3>Fantasy </h3>
+                    <h1 style="color: #fff;">$300.00</h1>
+                    <p style="color: gray;">per/day</p>
+                    <a href="">Order</a>
+                </div>
+                <div class="cards-back">
+                    <h3>Fantasy Package</h3>
+                    <p>Includes destination venue, themed decor, gourmet catering, photography, and entertainment for up to 300 guests.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section">
+<div class="contact-us">
+  <div class="contact-info">
+    <div>
+      <img  src="./image/cover6.jpg" alt="">
+    </div>
+  </div>
+  <div class="contact-form">
+    <h2>Contact us</h2>
+    <p>We’ll plan your dream wedding</p>
+    <div class="form-box">
+      <div class="inputBox w50">
+        <input type="text" name="" required>
+        <span>First Name</span>
+      </div>
+      <div class="inputBox w50">
+        <input type="text" name="" required>
+        <span>Last Name</span>
+      </div>
+      <div class="inputBox w50">
+        <input type="text" name="" required>
+        <span>Email Address</span>
+      </div>
+      <div class="inputBox w50">
+        <input type="text" name="" required>
+        <span>Mobile Number</span>
+      </div>
+      <div class="inputBox w100">
+       <textarea name="" required></textarea>
+        <span>Write your message here...</span>
+      </div>
+      <div class="inputBox w100">
+        <input type="submit" value="send">
+        </div>
+    </div>
+  </div>
+</div>
+</section>
+<footer class="footer">
+  <div class="container">
+    <div class="footer-columns">
+      <div class="footer-column">
+        <h3>About Us</h3>
+        <p>We are committed to making your wedding dreams come true. Our team of experienced planners will ensure every detail is perfect.</p>
+      </div>
+      <div class="footer-column">
+        <h3>Contact Information</h3>
+        <ul>
+          <li>Email: info@weddingplanner.com</li>
+          <li>Phone: +123-456-7890</li>
+          <li>Address: 123 Wedding Lane, Bridal City</li>
+        </ul>
+      </div>
+      <div class="footer-column">
+        <h3>Quick Links</h3>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-column">
+        <h3>Follow Us</h3>
+        <div class="social-links">
+          <a href="#"><i class="fa-brands fa-facebook"></i></a>
+          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+</body>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>AOS.init();</script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</html>
